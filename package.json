@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.1.2",
-    "@teamest/internal-season-common": "0.0.6",
+    "@teamest/internal-season-common": "0.0.7",
     "@teamest/models": "^0.7.1",
     "google-protobuf": "^4.0.0-rc.1"
   }
