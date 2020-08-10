@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "integration-test": "node integration_test/test.js"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,8 @@
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.1.2",
-    "@teamest/internal-season-common": "^0.2.1",
-    "@teamest/models": "^0.9.1",
+    "@teamest/internal-season-common": "^0.2.2",
+    "@teamest/models": "^0.9.2",
     "google-protobuf": "^4.0.0-rc.1"
   }
 }
