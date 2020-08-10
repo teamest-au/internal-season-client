@@ -1,6 +1,6 @@
 {
   "name": "@teamest/internal-season-client",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "gRPC node client to call internal season service",
   "main": "dist/index.js",
   "scripts": {
